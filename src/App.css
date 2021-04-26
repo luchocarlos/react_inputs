@@ -1,0 +1,195 @@
+*{
+  background-color: #E6EAE9;
+}
+
+.inputs{
+  font-family: monospace;
+  padding-top: 30px;
+  padding-left: 100px;
+
+}
+
+h1 {
+  font-size: 4em;
+  font-family: serif;
+  text-align: left;
+}
+
+.mis_inputs{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+
+}
+
+.mis_inputs :nth-child(20){
+   grid-column-start: 1;
+   grid-column-end: 4;
+
+}
+
+.mis_inputs :nth-child(22){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(24){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(26){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(28){
+  grid-column-end: 2;
+}
+
+
+.mis_inputs :nth-child(30){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(32){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(34){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(36){
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+
+.mis_inputs :nth-child(38){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+
+.mis_inputs :nth-child(39){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(41){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(43){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+.mis_inputs :nth-child(45){
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+
+.mis_inputs :nth-child(47){
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+
+.mis_inputs :nth-child(48){
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+}
+
+.mis_inputs :nth-child(50){
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+}
+
+/*colores de los label e inputs*/
+
+.hover, .focus{
+  color: grey;
+}
+
+
+.label_c{
+  color: blue;
+}
+.input_c{
+  border: 1px solid blue;
+}
+
+.error_la, .error_lc{
+  color: red;
+}
+.error_a, .error_c{
+  border: 1px solid red;
+}
+
+
+.disable{
+  border: none;
+  background: rgba(189, 187, 187, 0.829);
+}
+
+.text_error{
+  color: red;
+}
+
+.htext_error{
+  border: 1px solid red;
+}
+
+
+/*tamaño general*/
+input {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.sm{
+  width: 100px;
+  height: 20px;
+}
+
+
+.full_width{
+  width: 90%;
+}
+
+textarea{
+  height: 80px;
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid black;
+  resize: none;
+}
+
+
+/*footer*/
+
+footer{
+  padding: 50px;
+  clear: both;
+  color: grey;
+}
